@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se em nosso Time</title>
+</head>
+<body>
+    <h3>Cadastro</h3>
+    <form action="">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <label for="passowrd">Passowrd:</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <br>
+        <div>
+            <label for="data">Data de nascimento</label>
+            <input type="date" name="birthday"
+            id="birthday">
+
+            <label for="photo">Foto:</label>
+            <input type="file" name="photo" id="photo">
+        </div>
+        <br>
+        <div>
+            <label for="nationality">Nacionalidade:</label>
+            <select name="nationality" id="nationality">
+                <option value="russian">Russia</option>
+                <option value="american">Estados Unidos</option>
+                <option value="brazilian">Brasil</option>
+            </select>
+
+            -Genero:
+            <label for="female">Mulher</label>
+            <input type="radio" name="gender" id="female">
+            <label for="male">Homem</label>
+            <input type="radio" name="gender" id="male">
+        </div>
+        <br>
+        <div>
+            <p>Principais qualidades:</p>
+            <label for="passe">Passe</label>
+            <input type="checkbox" name="passe" id="passe">
+
+            <label for="strong">Força</label>
+            <input type="checkbox" name="strong" id="strong">
+
+            <label for="experience">Experiência</label>
+            <input type="checkbox" name="experience" id="experience">
+
+            <label for="shoot">Chute</label>
+            <input type="checkbox" name="shoot" id="shoot">
+        </div>
+        <br>
+        <div>
+            <textarea name="description" id="textarea" cols="30" rows="10" placeholder="Por que você deve jogar conosco?"></textarea>
+        </div>
+
+        <div>
+            <input type="submit" value="Send">
+        </div>
+        
+    </form>
+</body>
+</html>

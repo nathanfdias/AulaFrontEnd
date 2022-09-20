@@ -1,0 +1,9 @@
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 19vh;
+    font-size: 20px;
+    font-style: italic;
+    background: linear-gradient(68.15deg, rgb(235, 230, 225) 16.62%, bisque 85.61%);
+}

@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+.header-logo{
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    margin: 20px;
+}

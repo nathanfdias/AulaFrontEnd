@@ -1,0 +1,21 @@
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  background: linear-gradient(68.15deg, rgb(235, 230, 225) 16.62%, bisque 85.61%);
+}
+
+.main-img {
+  width: 50%;
+}
+
+.main-description {
+  max-width: 30%;
+  text-align: center;
+}
+
+.main-subtitle {
+  font-size: 28px;
+  margin: 20px;
+}
