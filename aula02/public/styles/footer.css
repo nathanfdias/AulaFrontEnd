@@ -1,0 +1,9 @@
+.footer-description ul{
+    height: 8vh;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--color-white);
+    font-size: 20px;
+}

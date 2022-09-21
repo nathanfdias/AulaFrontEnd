@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(180deg, var(--primary-color), rgb(87, 23, 23));
+}
+
+.header-logo {
+    width: 60px;
+    height: 60px;
+}
+
+.header-list {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.header-list li a{
+    color: white;
+    font-size: 20px;
+}
