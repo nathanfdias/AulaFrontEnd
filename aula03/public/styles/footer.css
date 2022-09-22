@@ -1,3 +1,6 @@
 footer{
     height: 60px;
+    background-color: rgba(71, 71, 71, 0.329);
+    border-top: 1px solid transparent;
+    border-color: rgba(0, 0, 0, 0.336);
 }
