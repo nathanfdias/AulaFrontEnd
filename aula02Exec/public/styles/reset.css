@@ -4,8 +4,7 @@
     border-radius: border-box;
 }
 
-html, body 
-{ 
+html { 
  scroll-behavior: smooth;
 }
 
