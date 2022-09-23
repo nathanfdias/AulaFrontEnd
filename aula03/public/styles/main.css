@@ -23,3 +23,23 @@ main{
     font-size: 2rem;
     font-weight: lighter;
 }
+
+@media (max-width: 1085px) {
+    .main-first h5 {
+        display: flex;
+        width: 100%;
+    }
+    .main-first h2{
+        width: 100%;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-first h2{
+        font-size: 2rem;
+    }
+    .main-first h5 {
+        font-size: 1.5rem;
+    }
+}

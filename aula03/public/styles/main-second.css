@@ -74,3 +74,44 @@
   color: #fff;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
 }
+
+@media (max-width: 1200px){
+  .main-second-container-description{
+    width: 70%;
+  }
+  .main-second-imgs {
+    height: 30%;
+    width: 100%;
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 768px){
+  .main-second-container-description{
+    width: 94%;
+  }
+
+  .main-second-imgs {
+    height: 32%;
+    gap: 0;
+  }
+
+  .img-florests{
+    width: 25%;
+  }
+}
+
+@media (max-width: 510px) {
+  .main-second-container-description p {
+    font-size: 15px;
+    font-weight: lighter;
+  }
+
+  .main-second-container-description h2{
+    font-size: 23px;
+  }
+
+  .main-second-container-description h6 {
+    font-size: 14px;
+  }
+}

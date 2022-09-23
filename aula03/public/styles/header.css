@@ -52,3 +52,39 @@ header button:hover{
     color:rgba(75, 75, 75, 0.562);
     margin-bottom: 10px;
 }
+
+@media (max-width: 1200px){
+    .header-nav ul li a{
+        font-size: 14px;
+    }
+
+    .header-nav ul {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 930px) {
+    .header-nav ul li a{
+        font-size: 12px;
+    }
+
+    .header-nav ul {
+        gap: 15px;
+    }
+
+    .header-logo{
+        width: 100px;
+    }
+
+    header button{
+        width: 80px;
+        height: 30px;
+    }
+    
+}
+
+@media (max-width: 750px) {
+    .header-nav ul li a{
+        color: transparent;
+    }
+}
